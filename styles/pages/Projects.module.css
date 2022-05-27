@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.urlxcf {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.clonedirecte {
+  grid-area: 1 / 3 / 3 / 5;
+}
+
+.footapi {
+  grid-area: 3 / 1 / 5 / 3;
+}
+
+.fullscreenSpotify {
+  grid-area: 3 / 3 / 5 / 5;
+}
+
+.githubChecker {
+  grid-area: 5 / 1 / 7 / 3;
+}
+
+.discordLastFm {
+  grid-area: 5 / 3 / 7 / 5;
+}
+
+.audioRussianRoulette {
+  grid-area: 7 / 1 / 9 / 3;
+}
+
+.div8 {
+  grid-area: 7 / 3 / 9 / 5;
+}
+
+.textProjects {
+  height: 0;
+}
+
+.multipleIcons > *:not(:last-child) {
+  margin-right: 10px;
+}

@@ -1,0 +1,8 @@
+.contactName {
+  font-weight: 800;
+}
+
+.contactMethod:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

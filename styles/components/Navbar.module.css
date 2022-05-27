@@ -1,0 +1,37 @@
+.title {
+  transition: 250ms ease-in-out;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 40px;
+  margin: 0;
+  background: -webkit-linear-gradient(0deg, #2631fd, #a01dfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title:hover {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.project {
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+}
+
+.projectsBar > *:not(:last-child) {
+  margin-right: 5px;
+}

@@ -1,0 +1,25 @@
+.logo {
+  float: right;
+  height: 250px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 20px 20px;
+}
+
+.visit {
+  font-weight: 800;
+}
+
+.visit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    display: none;
+  }
+  .about {
+    text-align: center;
+  }
+}
